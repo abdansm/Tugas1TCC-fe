@@ -1,6 +1,6 @@
 // Ngambil elemen form
 const formulir = document.querySelector("form");
-const url = "http://localhost:3000/api/notes/";
+const url = "http://localhost:5000/api/notes/";
 
 // Bikin trigger event submit pada elemen form
 formulir.addEventListener("submit", (e) => {

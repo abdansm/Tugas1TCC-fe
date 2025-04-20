@@ -1,6 +1,6 @@
 // Ngambil elemen form
 const formulir = document.querySelector("form");
-const url = "https://tugas1tcc-be2-425714712446.us-central1.run.app//api/notes/";
+const url = "https://tugas1tcc-be2-425714712446.us-central1.run.app/api/notes/";
 
 // Bikin trigger event submit pada elemen form
 formulir.addEventListener("submit", (e) => {

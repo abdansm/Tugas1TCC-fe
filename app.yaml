@@ -5,8 +5,9 @@ handlers:
   static_files: index.html
   upload: index.html
   
-- url: /
-  static_files: sript_halUtama.js
-  upload: sript_halUtama.js
+- url: /(.*\.js)
+  mime_type: text/javascript
+  static_files: \1
+  upload: (.*\.js)
 
 service: default

@@ -10,4 +10,4 @@ handlers:
   static_files: \1
   upload: (.*\.js)
 
-service: default
+service: abdansm-notes-fe
